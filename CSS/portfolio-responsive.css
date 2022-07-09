@@ -1,0 +1,95 @@
+@media (min-width: 300px) and (max-width: 480px) {
+    .banner {
+        position: relative;
+        padding: 10px;
+    }
+    .banner-row .img-1 {
+        width: 100%;
+    }
+    .banner-row .img-2 {
+        margin: 0 auto;
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        top: 0;
+        left: 0;
+        position: relative;
+    }
+    .banner-row .img-1 {
+        position: absolute;
+        width: 100%;
+        height: auto;
+    }
+    .ban-descrp {
+        top: 350px;
+        left: 0;
+        width: 700px;
+        position: absolute;
+    }
+    .blob {
+        display: none;
+    }
+    .abt-me {
+        margin-top: 5px;
+    }
+    .abt-img {
+        width: 100%;
+    }
+    .footer {
+        width: 100%;
+    }
+    .service-head {
+        font-size: 1.5rem;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .banner {
+        position: relative;
+        padding: 10px;
+    }
+    .banner-row .img-1 {
+        width: 100%;
+    }
+    .banner-row .img-2 {
+        margin: 0 auto;
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        top: 0;
+        left: 0;
+        position: relative;
+    }
+    .banner-row .img-1 {
+        position: absolute;
+        width: 100%;
+        height: auto;
+    }
+    .ban-descrp {
+        font-size: 3rem;
+        top: 350px;
+        left: 150px;
+        width: 650px;
+        position: absolute;
+    }
+    .ban-btn {
+        padding: 5px;
+        font-size: 1.3rem;
+        background: none;
+        border-radius: 10px;
+        border: 2px solid #222f3e;
+        transition: 0.5s all;
+        position: absolute;
+        top: 120px;
+    }
+    .blob {
+        display: none;
+    }
+    .banner-row,
+    .abt-descr {
+        width: 100%;
+    }
+    .serv-box {
+        width: 80%;
+    }
+}

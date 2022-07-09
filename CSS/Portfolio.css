@@ -1,0 +1,165 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    h1,
+    h2,
+    h3 {
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    }
+    
+    p {
+        font-family: "Arima", cursive;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    .bannner {
+        border: 1px solid;
+        position: relative;
+    }
+    
+    .banner-row .img-2 {
+        width: 300px;
+        height: 300px;
+        border-radius: 50%;
+        top: 20px;
+        left: 200px;
+        position: relative;
+    }
+    
+    .banner-row .img-1 {
+        position: absolute;
+        width: 100%;
+        height: 800px;
+    }
+    
+    .ban-descrp {
+        top: 300px;
+        left: 650px;
+        width: 700px;
+        position: absolute;
+    }
+    
+    .descrp-h1 {
+        font-size: 3rem;
+        font-family: sans-serif;
+        letter-spacing: 10px;
+        color: #222f3e;
+    }
+    
+    .ban-para {
+        font-weight: 400;
+        color: #222f3e;
+        font-size: 1.8rem;
+        position: relative;
+    }
+    
+    .blob {
+        position: absolute;
+        top: 420px;
+        left: 0;
+    }
+    
+    .ban-btn {
+        padding: 10px;
+        font-size: 1.3rem;
+        background: none;
+        border-radius: 10px;
+        border: 2px solid #222f3e;
+        transition: 0.5s all;
+        margin-top: 2px;
+    }
+    
+    .dark-mode {
+        cursor: pointer;
+    }
+    
+    .ban-btn a {
+        color: #222f3e;
+        text-decoration: none;
+    }
+    
+    .ban-btn:hover {
+        background-color: #0abde3;
+    }
+    
+    .about-me {
+        margin-top: 600px;
+        padding: 10px;
+    }
+    
+    .abt-img {
+        border-radius: 50px 100px;
+        width: 400px;
+        height: 400px;
+    }
+    
+    .abt-para {
+        margin-top: 5px;
+        font-weight: 500;
+        position: relative;
+    }
+    
+    .abt-head {
+        display: inline-flex;
+        padding: 5px;
+    }
+    
+    .abt-para::after {
+        content: "";
+        width: 10px;
+        height: 120px;
+        background-color: #0abde3;
+        position: absolute;
+        left: -100px;
+        top: -10px;
+    }
+    
+    .service-head {
+        letter-spacing: 10px;
+        text-shadow: 10px 10px 4px #3498db;
+    }
+    
+    .serv-box {
+        margin: 0 auto;
+        margin-top: 30px;
+        position: relative;
+        text-align: center;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        padding: 15px;
+        border-radius: 50px 100px;
+    }
+    
+    .serv-box img {
+        width: 50%;
+        border-radius: 50%;
+    }
+    
+    .footer {
+        background-image: url("../IMG/footer.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    
+    .social-icons {
+        cursor: pointer;
+        background-color: #fff;
+        padding: 10px 15px;
+        letter-spacing: 30px;
+    }
+    
+    .footer-txt {
+        font-weight: bolder;
+        font-family: "Edu QLD Beginner", cursive;
+    }
+    
+    .dark-mode {
+        margin: 20px 0 0 40px;
+        font-size: 2rem;
+    }
